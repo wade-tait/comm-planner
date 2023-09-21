@@ -1,0 +1,23 @@
+.custom-styles .excalidraw {
+  --color-primary-darker: rgb(64, 134, 255);
+  --color-primary-darkest: rgb(10, 15, 31);
+}
+
+.custom-styles .excalidraw.theme--dark {
+  --color-primary-darker: rgb(64, 134, 255);
+  --color-primary-darkest: rgb(10, 15, 31);
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(51, 51, 51, 0.7);
+  z-index: 10;
+}
+
+:root {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
